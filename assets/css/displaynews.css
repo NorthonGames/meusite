@@ -39,7 +39,7 @@
 
 .news-ticker {
 	width: 71%;
-	float: right;
+	float:right;
 	overflow: hidden;
 	display: inline-block;
 }
@@ -70,6 +70,10 @@
 
 .news-ticker-contant .nt-item span.racing {
 	background: #ff2143;
+}
+
+a:hover{
+	color: #33CFF0;
 }
 
 /*------------------

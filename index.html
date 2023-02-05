@@ -23,6 +23,8 @@
     <link rel="stylesheet" href="assets/css/nice-select.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/displaynews.css">
+    <link rel="stylesheet" href="assets/css/menu.css">
+   
 </head>
 
 <body>   
@@ -78,56 +80,68 @@
                 <div class="container">
                     <div class="row d-flex align-items-center">
                         <!-- Logo -->
-                        <div class="col-xl-3 col-lg-3 col-md-3 d-none d-md-block">
-                            <div class="logo">
-                                <a href="index.html"><img src="assets/img/logo/logo.png" alt=""></a>
-                            </div>
-                        </div>
-                        <div class="col-xl-9 col-lg-9 col-md-9">
-                            <div class="header-banner f-right ">
-                                <img src="assets/img/gallery/header_card.png" alt="">
-                            </div>
-                        </div>
-                    </div>
+                <div class="col-xl-3 col-lg-3 col-md-3 d-none d-md-block">
+                  <div class="logo">
+                    <a href="index.html"
+                      ><img src="assets/img/logo/logo.png" alt=""
+                    /></a>
+                  </div>
                 </div>
+                <div class="col-xl-9 col-lg-9 col-md-9">
+                  <div class="header-banner f-right">
+                    <img src="assets/img/gallery/publicidade/header_card.png" alt="" />
+                  </div>
+                </div>
+              </div>
             </div>
-            <div class="header-bottom header-sticky">
-                <div class="container">
-                    <div class="row align-items-center">
-                        <div class="col-xl-8 col-lg-8 col-md-12 header-flex">
-                            <!-- sticky -->
-                            <div class="sticky-logo">
-                                <a href="index.html"><img src="assets/img/logo/logo.png" alt=""></a>
-                            </div>
-                            <!-- Main-menu -->
-                            <div class="main-menu d-none d-md-block">
-                                <nav>                  
-                                    <ul id="navigation">
-                                        <li><a href="index.html">INICIO</a></li>
-                                        <li><a href="#informacoes">INFORMAÇÕES</a></li>
+          </div>
+          <div class="header-bottom header-sticky">
+            <div class="container">
+              <div class="row align-items-center">
+                <div class="col-xl-8 col-lg-8 col-md-12 header-flex">
+                  <!-- sticky -->
+                  <div class="sticky-logo">
+                    <a href="index.html"
+                      ><img src="assets/img/logo/logo.png" alt=""
+                    /></a>
+                  </div>
+                  <!-- Main-menu -->
+                  <div class="main-menu d-none d-md-block">
+                    <nav>
+                      <ul id="navigation" class="menu">
+                       <!-- Esse é o 1 nivel ou o nivel principal -->
+    <li><a href="#">INICIO</a></li>
+    <li><a href="#">INFORMAÇÕES</a>
+        <ul class="submenu-1">
+            <!-- Esse é o 2 nivel ou o primeiro Drop Down -->
+            <li><a href="#">Lineage 2</a></li>
+            <li><a href="#">New World</a></li>
+            <li><a href="#">Submenu 3</a>
+                <ul class="submenu-2">
+                    <!-- Esse é o 3 nivel ou o Segundo Drop Down -->
+                    <li><a href="#">Submenu 4</a></li>
+                    <li><a href="#">Submenu 5</a></li>
+                    <li><a href="#">Submenu 6</a>
+                        <ul class="submenu-3">
+                            <!-- Esse é o 4 nivel ou o Terceiro Drop Down -->
+                            <li><a href="#">Submenu 7</a></li>
+                            <li><a href="#">Submenu 8</a></li>
+                            <li><a href="#">Submenu 9</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+    <li><a href="#">GUIAS & TUTORIAIS</a></li>
+    <li><a href="#">COMÉRCIO</a></li>
+    <li><a href="#">DOWNLOADS</a></li>
 
-                                        <li><a href="latest_news.html">Guias & Tutoriais</a>
-                                            <ul class="submenu">
-                                                <li><a href="blog.html">ADEN - NA</a></li>
-                                                <li><a href="blog_details.html">ESSENCE - EU</a></li>
-                                                
-                                            </ul>
-                                        </li>
-
-                                        <li><a href="#">COMERCIO RMT</a>
-                                            <ul class="submenu">
-                                                <li><a href="blog.html">SERVIDOR - NA</a></li>
-                                                <li><a href="blog_details.html">SERVIDOR - EU</a></li>
-                                                <li><a href="elements.html">OUTROS JOGOS</a></li>
-                                            </ul>
-                                        </li>
-                                        <li><a href="contact.html">CONTATO</a></li>
-                                    </ul>
-                                </nav>
-                            </div>
-                        </div>             
-                        <div class="col-xl-4 col-lg-4 col-md-4">
-                            <div class="header-right f-right d-none d-lg-block">
+                    </nav>
+                  </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-4">
+                  <div class="header-right f-right d-none d-lg-block">
                                 <!-- Heder social -->
                                 <ul class="header-social">   
                                     <li><a href="https://discord.gg/KXCU8fYH" target="_blank" title="Discord"><i class="fab fa-discord"></i></a></li>
@@ -258,9 +272,12 @@
                                 <!--Nav Button  -->                                            
                                 <nav>                                                 
                                     <div class="nav nav-tabs" id="nav-tab" role="tablist">
-                                        <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">NCSoft</a>
-                                        <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">4Game</a>
-                                        <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Amazon Games</a>
+                                        <a class="nav-item nav-link active" id="nav-ncsoft-tab" data-toggle="tab" href="#nav-ncsoft" role="tab" aria-controls="nav-ncsoft" aria-selected="true">NCSoft</a>
+
+                                        <a class="nav-item nav-link" id="nav-4game-tab" data-toggle="tab" href="#nav-4game" role="tab" aria-controls="nav-4game" aria-selected="false">4Game</a>
+
+                                        <a class="nav-item nav-link" id="nav-amazon-tab" data-toggle="tab" href="#nav-amazon" role="tab" aria-controls="nav-amazon" aria-selected="false">Amazon Games</a>
+                                        
                                         <!--<a class="nav-item nav-link" id="nav-last-tab" data-toggle="tab" href="#nav-last" role="tab" aria-controls="nav-contact" aria-selected="false">Blizzard</a>-->
                                         <a class="nav-item nav-link" id="nav-Sports" data-toggle="tab" href="#nav-nav-Sport" role="tab" aria-controls="nav-contact" aria-selected="false">Outros</a>
                                     </div>
@@ -275,7 +292,7 @@
                             <!-- Nav Card -->
                             <div class="tab-content" id="nav-tabContent">
                                 <!-- card one -->
-                                <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">       
+                                <div class="tab-pane fade show active" id="nav-ncsoft" role="tabpanel" aria-labelledby="nav-ncsoft-tab">       
                                     <div class="row">
 
                                         <!-- Informações - NCSOFT -->
@@ -285,12 +302,14 @@
                                                     <img src="assets/img/gallery/ncsoft/banner_01.png" alt="">
                                                 </div>
                                                 <div class="whates-caption">
-                                                    <h4><a href="ncsoft_news.html">Ncsoft anuncia grandes atualizações em seus servidores de Lineage 2 </a></h4>
+                                                    <h4><a href="ncsoft_news.html">Conheça um pouco sobre o jogo Lineage 2</a></h4>
                                                     <span>Lineage 2   -   Jan 06, 2023</span>
-                                                    <p>As informações sobre as atualizações foram publicadas no forum oficial dos servidores oficiais da Coreia.</p>
+                                                    <p>Lineage 2 é um MMORPG desenvolvido pela NCsoft, e publicado em 1 de outubro de 2003 na Coreia do Sul.</p>
                                                 </div>
                                             </div>
                                         </div>
+
+                                        
                                         <!-- Mini Informações -->
                                         <div class="col-xl-6 col-lg-12">
                                             <div class="row">
@@ -343,13 +362,18 @@
                                                         </div>
                                                     </div>
                                                 </div>
+                                                
                                             </div>
                                         </div>
                                     </div>
                                 </div>
+
+                                
                                 <!-- Card two -->
-                                <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                                <div class="tab-pane fade" id="nav-4game" role="tabpanel" aria-labelledby="nav-4game-tab">
                                     <div class="row">
+
+                                        
                                         <!--Informações - 4game -->
                                         <div class="col-xl-6">
                                             <div class="whats-news-single mb-40">
@@ -420,7 +444,7 @@
                                     </div>
                                 </div>
                                 <!-- Card three -->
-                                <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+                                <div class="tab-pane fade" id="nav-amazon" role="tabpanel" aria-labelledby="nav-amazon-tab">
                                     <div class="row">
                                         <!-- Informações - Amazon -->
                                         <div class="col-xl-6">
@@ -644,7 +668,7 @@
                 </div>
                 <!-- Banner -->
                 <div class="banner-one mt-20 mb-30">
-                    <img src="assets/img/gallery/body_card1.png" alt="">
+                    <img src="assets/img/gallery/publicidade/body_card1.png" alt="">
                 </div>
                 </div>
                 <div class="col-lg-4">
@@ -700,7 +724,7 @@
                             <div class="most-recent-img">
                                 <img src="assets/img/gallery/cadastre/01.png" alt="">
                                 <div class="most-recent-cap">
-                                    <span class="bgbeg">Bonus</span>
+                                    <span class="bgbeg">Lineage 2</span>
                                     <h4 id="parceiros"><a href=" https://eu.4game.com/s2s/essence_NorthonGames" target="_blank">Crie sua conta através desse link<br>e ganhe varias recompensas.</a></h4>
                                     <p>Programa De Parceiros Afiliados - 4Game</p>
                                 </div>
@@ -712,7 +736,7 @@
                                 <img src="assets/img/gallery/cadastre/parceiro_01.png" alt="">
                             </div>
                             <div class="most-recent-capt">
-                                <h4><a href="https://www.cpasgardl2.site/" target="_blank">Conheça e visite o website da nossa CP Asgard.</a></h4>
+                                <h4><a href="https://www.cpasgardl2.site/" target="_blank">Conheça e visite o website da nossa CP Asgard Lineage2.</a></h4>
                                 <p>Parceiros</p>
                             </div>
                         </div>
@@ -749,7 +773,7 @@
                             <div class="row">
                                 <div class="col-lg-12">
                                     <div class="small-tittle mb-30">
-                                        <h4>Most Popular</h4>
+                                        <h3>Raças & Classes</h>
                                     </div>
                                 </div>
                             </div>
@@ -763,8 +787,8 @@
                                                 <img src="assets/img/gallery/weeklyNews1.png" alt="">
                                             </div>
                                             <div class="weekly2-caption">
-                                                <h4><a href="#">Scarlett’s disappointment at latest accolade</a></h4>
-                                                <p>Jhon  |  2 hours ago</p>
+                                                <h4><a href="#">Humanos</a></h4>
+                                                <p>Lineage 2</p>
                                             </div>
                                         </div> 
                                         <!-- Single -->
@@ -773,8 +797,8 @@
                                                 <img src="assets/img/gallery/weeklyNews2.png" alt="">
                                             </div>
                                             <div class="weekly2-caption">
-                                                <h4><a href="#">Scarlett’s disappointment at latest accolade</a></h4>
-                                                <p>Jhon  |  2 hours ago</p>
+                                                <h4><a href="#">Elfos</a></h4>
+                                                <p>Lineage 2</p>
                                             </div>
                                         </div> 
                                         <!-- Single -->
@@ -783,8 +807,8 @@
                                                 <img src="assets/img/gallery/weeklyNews3.png" alt="">
                                             </div>
                                             <div class="weekly2-caption">
-                                                <h4><a href="#">Scarlett’s disappointment at latest accolade</a></h4>
-                                                <p>Jhon  |  2 hours ago</p>
+                                                <h4><a href="#">Dark Elfos</a></h4>
+                                                <p>Lineage 2</p>
                                             </div>
                                         </div> 
                                         <!-- Single -->
@@ -806,171 +830,14 @@
             </div>
         </div>
     </div>           
-    <!-- End Weekly-News -->
-    <!--  Recent Articles start -->
-    <div class="recent-articles pt-80 pb-80">
-        <div class="container">
-            <div class="recent-wrapper">
-                <!-- section Tittle -->
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="section-tittle mb-30">
-                            <h3>Trending  News</h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-12">
-                        <div class="recent-active dot-style d-flex dot-style">
-                            <!-- Single -->
-                            <div class="single-recent">
-                                <div class="what-img">
-                                    <img src="assets/img/gallery/tranding1.png" alt="">
-                                </div>
-                                <div class="what-cap">
-                                    <h4><a href="#" > <h4><a href="latest_news.html">What to Expect From the 2020 Oscar Nomin ations</a></h4></a></h4>
-                                    <P>Jun 19, 2020</P>
-                                    <a class="popup-video btn-icon" href="https://www.youtube.com/watch?v=1aP-TXUpNoU"><span class="flaticon-play-button"></span></a>
-                                    
-                                </div>
-                            </div>
-                            <!-- Single -->
-                            <div class="single-recent">
-                                <div class="what-img">
-                                    <img src="assets/img/gallery/tranding2.png" alt="">
-                                </div>
-                                <div class="what-cap">
-                                    <h4><a href="latest_news.html">What to Expect From the 2020 Oscar Nomin ations</a></h4>
-                                    <P>Jun 19, 2020</P>
-                                    <a class="popup-video" href="https://www.youtube.com/watch?v=1aP-TXUpNoU"><span class="flaticon-play-button"></span></a>
-                                </div>
-                            </div>
-                            <!-- Single -->
-                            <div class="single-recent">
-                                <div class="what-img">
-                                    <img src="assets/img/gallery/tranding1.png" alt="">
-                                </div>
-                                <div class="what-cap">
-                                    <h4><a href="latest_news.html"> <h4><a href="latest_news.html">What to Expect From the 2020 Oscar Nomin ations</a></h4></a></h4>
-                                    <P>Jun 19, 2020</P>
-                                    <a class="popup-video" href="https://www.youtube.com/watch?v=1aP-TXUpNoU"><span class="flaticon-play-button"></span></a>
-                                </div>
-                            </div>
-                            <!-- Single -->
-                            <div class="single-recent">
-                                <div class="what-img">
-                                    <img src="assets/img/gallery/tranding2.png" alt="">
-                                </div>
-                                <div class="what-cap">
-                                    <h4><a href="latest_news.html">What to Expect From the 2020 Oscar Nomin ations</a></h4>
-                                    <P>Jun 19, 2020</P>
-                                    <a class="popup-video" href="https://www.youtube.com/watch?v=1aP-TXUpNoU"><span class="flaticon-play-button"></span></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <!-- End Weekly-News -->                        
+               
+    <!--   Guias & Tutoriais -->
+    <div id="guiatutorias" class="weekly3-news-area pt-80 pb-130">
+        <div class="section-tittle mb-30">
+        <h3 style="margin-left: 20%;">
+            Instâncias & Dungeons</h3>
         </div>
-    </div>           
-    <!--Recent Articles End -->
-    <!-- Start Video Area -->
-    <div class="youtube-area video-padding d-none d-sm-block">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="video-items-active">
-                        <div class="video-items text-center">
-                            <video controls>
-                                <source src="assets/video/news2.mp4" type="video/mp4">
-                                Your browser does not support the video tag.
-                            </video>
-                        </div>
-                        <div class="video-items text-center">
-                            <video controls>
-                                <source src="assets/video/news1.mp4" type="video/mp4">
-                                Your browser does not support the video tag.
-                            </video>
-                        </div>
-                        <div class="video-items text-center">
-                            <video controls>
-                                <source src="assets/video/news3.mp4" type="video/mp4">
-                                Your browser does not support the video tag.
-                            </video>
-                        </div>
-                        <div class="video-items text-center">
-                            <video controls>
-                                <source src="assets/video/news1.mp4" type="video/mp4">
-                                Your browser does not support the video tag.
-                            </video>
-                        </div>
-                        <div class="video-items text-center">
-                            <video controls>
-                                <source src="assets/video/news3.mp4" type="video/mp4">
-                                Your browser does not support the video tag.
-                            </video>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="video-info">
-                <div class="row">
-                    <div class="col-12">
-                        <div class="testmonial-nav text-center">
-                            <div class="single-video">
-                                <video controls>
-                                    <source src="assets/video/news2.mp4" type="video/mp4">
-                                    Your browser does not support the video tag.
-                                </video>
-                                <div class="video-intro">
-                                        <h4>Old Spondon News - 2020 </h4>
-                                </div>
-                            </div>
-                            <div class="single-video">
-                                <video controls>
-                                    <source src="assets/video/news1.mp4" type="video/mp4">
-                                    Your browser does not support the video tag.
-                                </video>
-                                <div class="video-intro">
-                                    <h4>Banglades News Video </h4>
-                                </div>
-                            </div>
-                            <div class="single-video">
-                                <video controls>
-                                    <source src="assets/video/news3.mp4" type="video/mp4">
-                                    Your browser does not support the video tag.
-                                </video>
-                                <div class="video-intro">
-                                    <h4>Latest Video - 2020 </h4>
-                                </div>
-                            </div>
-                            <div class="single-video">
-                                <video controls>
-                                    <source src="assets/video/news1.mp4" type="video/mp4">
-                                    Your browser does not support the video tag.
-                                </video>
-                                <div class="video-intro">
-                                    <h4>Spondon News -2019 </h4>
-                                </div>
-                            </div>
-                            <div class="single-video">
-                                <video controls>
-                                    <source src="assets/video/news3.mp4" type="video/mp4">
-                                    Your browser does not support the video tag.
-                                </video>
-                                <div class="video-intro">
-                                    <h4>Latest Video - 2020</h4>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> 
-    <!-- End Start Video area-->
-    <!--   Weekly3-News start -->
-    <div class="weekly3-news-area pt-80 pb-130">
         <div class="container">
             <div class="weekly3-wrapper">
                 <div class="row">
@@ -982,47 +849,56 @@
                                     <div class="weekly3-news-active dot-style d-flex">
                                         <div class="weekly3-single">
                                             <div class="weekly3-img">
-                                                <img src="assets/img/gallery/weekly2News1.png" alt="">
+                                                <img src="assets/img/gallery/l2tutoriais/training.png" alt="">
                                             </div>
                                             <div class="weekly3-caption">
-                                                <h4><a href="latest_news.html">What to Expect From the 2020 Oscar Nomin ations</a></h4>
-                                                <p>19 Jan 2020</p>
+                                                <h4><a href="latest_news.html">Training Zone</a></h4>
+                                                <p>Instância Diaria - Level 76+</p>
                                             </div>
                                         </div> 
                                         <div class="weekly3-single">
                                             <div class="weekly3-img">
-                                                <img src="assets/img/gallery/weekly2News2.png" alt="">
+                                                <img src="assets/img/gallery/l2tutoriais/transcedente.png" alt="">
                                             </div>
                                             <div class="weekly3-caption">
-                                                <h4><a href="latest_news.html">What to Expect From the 2020 Oscar Nomin ations</a></h4>
-                                                <p>19 Jan 2020</p>
+                                                <h4><a href="latest_news.html">Instâncias & Transcendentes</a></h4>
+                                                <p>Instância Diaria - Level 40+</p>
                                             </div>
                                         </div> 
                                         <div class="weekly3-single">
                                             <div class="weekly3-img">
-                                                <img src="assets/img/gallery/weekly2News3.png" alt="">
+                                                <img src="assets/img/gallery/l2tutoriais/balok.png" alt="">
                                             </div>
                                             <div class="weekly3-caption">
-                                                <h4><a href="latest_news.html">What to Expect From the 2020 Oscar Nomin ations</a></h4>
-                                                <p>19 Jan 2020</p>
+                                                <h4><a href="latest_news.html">Batalha Com Balok</a></h4>
+                                                <p>Instância Diaria - Level 60+</p>
                                             </div>
                                         </div>
                                         <div class="weekly3-single">
                                             <div class="weekly3-img">
-                                                <img src="assets/img/gallery/weekly2News4.png" alt="">
+                                                <img src="assets/img/gallery/l2tutoriais/fortress.png" alt="">
                                             </div>
                                             <div class="weekly3-caption">
-                                                <h4><a href="latest_news.html">What to Expect From the 2020 Oscar Nomin ations</a></h4>
-                                                <p>19 Jan 2020</p>
+                                                <h4><a href="latest_news.html">Orc Fortress</a></h4>
+                                                <p>Instância Diaria - Level 60+</p>
                                             </div>
                                         </div> 
                                         <div class="weekly3-single">
                                             <div class="weekly3-img">
-                                                <img src="assets/img/gallery/weekly2News2.png" alt="">
+                                                <img src="assets/img/gallery/l2tutoriais/subjugation.png" alt="">
                                             </div>
                                             <div class="weekly3-caption">
-                                                <h4><a href="latest_news.html">What to Expect From the 2020 Oscar Nomin ations</a></h4>
-                                                <p>19 Jan 2020</p>
+                                                <h4><a href="latest_news.html">Subjugations</a></h4>
+                                                <p>Ganhe pontos ao caçar monstros</p>
+                                            </div>
+                                        </div> 
+                                        <div class="weekly3-single">
+                                            <div class="weekly3-img">
+                                                <img src="assets/img/gallery/l2tutoriais/hellbound.png" alt="">
+                                            </div>
+                                            <div class="weekly3-caption">
+                                                <h4><a href="latest_news.html">Hellbound</a></h4>
+                                                <p>Zona De Caça Semanal - Level 85+</p>
                                             </div>
                                         </div> 
                                     </div>
@@ -1037,11 +913,11 @@
     <!-- End Weekly-News -->
     <!-- banner-last Start -->
     <div class="banner-area gray-bg pt-90 pb-90">
-        <div class="container">
+        <div class="container-fluid">
             <div class="row justify-content-center">
                 <div class="col-lg-10 col-md-10">
                     <div class="banner-one">
-                        <img src="assets/img/gallery/body_card3.png" alt="">
+                        <img src="assets/img/gallery/publicidade/add2.png" alt="">
                     </div>
                 </div>
             </div>
@@ -1049,76 +925,7 @@
     </div>
     <!-- banner-last End -->
 </main>
-<footer>
-    <!-- Footer Start-->
-    <div class="footer-main footer-bg">
-        <div class="footer-area footer-padding">
-            <div class="container">
-                <div class="row d-flex justify-content-between">
-                    <div class="col-xl-3 col-lg-3 col-md-5 col-sm-8">
-                        <div class="single-footer-caption mb-50">
-                            <div class="single-footer-caption mb-30">
-                                <!-- logo -->
-                                <div class="footer-logo">
-                                    <a href="index.html"><img src="assets/img/logo/logo2_footer.png" alt=""></a>
-                                </div>
-                                <div class="footer-tittle">
-                                    <div class="footer-pera">
-                                        <p class="info1">Lorem ipsum dolor sit amet, nsectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
-                                        <p class="info2">198 West 21th Street, Suite 721 New York,NY 10010</p>
-                                        <p class="info2">Phone: +95 (0) 123 456 789 Cell: +95 (0) 123 456 789</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-lg-4 col-md-5 col-sm-7">
-                        <div class="single-footer-caption mb-50">
-                            <div class="footer-tittle">
-                                <h4>Popular post</h4>
-                            </div>
-                            <!-- Popular post -->
-                            <div class="whats-right-single mb-20">
-                                <div class="whats-right-img">
-                                    <img src="assets/img/gallery/footer_post1.png" alt="">
-                                </div>
-                                <div class="whats-right-cap">
-                                    <h4><a href="latest_news.html">Scarlett’s disappointment at latest accolade</a></h4>
-                                    <p>Jhon  |  2 hours ago</p> 
-                                </div>
-                            </div>
-                            <!-- Popular post -->
-                            <div class="whats-right-single mb-20">
-                                <div class="whats-right-img">
-                                    <img src="assets/img/gallery/footer_post2.png" alt="">
-                                </div>
-                                <div class="whats-right-cap">
-                                    <h4><a href="latest_news.html">Scarlett’s disappointment at latest accolade</a></h4>
-                                    <p>Jhon  |  2 hours ago</p> 
-                                </div>
-                            </div>
-                            <!-- Popular post -->
-                            <div class="whats-right-single mb-20">
-                                <div class="whats-right-img">
-                                    <img src="assets/img/gallery/footer_post3.png" alt="">
-                                </div>
-                                <div class="whats-right-cap">
-                                    <h4><a href="latest_news.html">Scarlett’s disappointment at latest accolade</a></h4>
-                                    <p>Jhon  |  2 hours ago</p> 
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-3 col-md-5 col-sm-7">
-                        <div class="single-footer-caption mb-50">
-                            <div class="banner">
-                                <img src="assets/img/gallery/body_card4.png" alt="">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+
         <!-- footer-bottom aera -->
         <div class="footer-bottom-area footer-bg">
             <div class="container">
@@ -1137,14 +944,13 @@
             </div>
         </div>
     </div>
-    <!-- Footer End-->
-</footer>
+    
 <!-- Search model Begin -->
 <div class="search-model-box">
     <div class="d-flex align-items-center h-100 justify-content-center">
         <div class="search-close-btn">+</div>
         <form class="search-model-form">
-            <input type="text" id="search-input" placeholder="as buscas estão desativadas>
+            <input type="text" id="search-input" placeholder="as buscas estão desativadas">
         </form>
     </div>
 </div>
@@ -1185,12 +991,15 @@
     <!-- Jquery Plugins, main Jquery -->	
     <script src="./assets/js/plugins.js"></script>
     <script src="./assets/js/main.js"></script>
+    <script src="./assets/js/menu.js"></script>
 
     <!-- Script JS Ultimas Noticias -->
         <script src="assets/js/displaynews/jquery-3.2.1.min.js"></script>
 	<script src="assets/js/displaynews//owl.carousel.min.js"></script>
 	<script src="assets/js/displaynews/jquery.marquee.min.js"></script>
 	 <script src="assets/js/displaynews/main.js"></script>
+
+  
     
 </body>
 </html>

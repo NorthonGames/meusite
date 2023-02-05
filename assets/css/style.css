@@ -2457,7 +2457,7 @@ hr {
   background: #fff;
   position: absolute;
   right: 0;
-  top: 50%;
+  top: 93%;
   transform: translateY(-50%);
 }
 .main-header .main-menu ul li:last-child a::before {
@@ -6385,3 +6385,5 @@ del {
 .switch-wrap {
   margin-bottom: 10px;
 }
+
+/* configuração sub menu */

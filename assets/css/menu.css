@@ -1150,7 +1150,7 @@ div.ruby-wrapper {
   width: 980px;
   height: 50px;
   margin: 0 auto;
-  background: #1a1a1a; /* cor da barra de menu */
+  background: rgba(0, 0, 0, 0); /* cor da barra de menu */
 }
 
 div.ruby-wrapper ul {
@@ -1200,7 +1200,7 @@ ul.ruby-menu > li:hover > a:only-child:after {
 }
 
 ul.ruby-menu > li.ruby-active-menu-item > a {
-  background: #1a1a1a; /* cor do botão inicio */
+  background: rgba(0, 0, 0, 0); /* cor do botão inicio */
 }
 
 ul.ruby-menu > li > a .fa {

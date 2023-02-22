@@ -1608,7 +1608,7 @@ div.ruby-grid > div.ruby-row div.ruby-col-1 {
 }
 
 div.ruby-grid > div.ruby-row div.ruby-col-2 {
-  width: 16.66%;
+  width: 20%;
 }
 
 div.ruby-grid > div.ruby-row div.ruby-col-3 {
@@ -1653,6 +1653,10 @@ div.ruby-grid > div.ruby-row div.ruby-col-12 {
   width: 100%;
 }
 
+div.ruby-grid > div.ruby-row div.ruby-col-13 {
+  width: 80%;
+}
+
 div.ruby-grid.ruby-grid-lined > div.ruby-row > div[class^="ruby-col"]:after {
   content: "";
   position: absolute;
@@ -1693,7 +1697,7 @@ h3.ruby-list-heading {
 ul.ruby-menu > li.ruby-menu-mega > div ul,
 ul.ruby-menu > li.ruby-menu-mega-shop > div > ul > li > div ul {
   margin: 0;
-  margin-top: 10px;
+  margin-top: 5px;
 }
 
 ul.ruby-menu > li.ruby-menu-mega > div ul li,
@@ -1714,7 +1718,7 @@ ul.ruby-menu > li.ruby-menu-mega-shop > div > ul > li > div ul > li > a {
 
 ul.ruby-menu > li.ruby-menu-mega > div ul li > a:hover,
 ul.ruby-menu > li.ruby-menu-mega-shop > div > ul > li > div ul > li > a:hover {
-  color: #222;
+  color: #ff2143; /* COR AO PASSAR O MOUSE NO MEU INFORMAÇÕES */
   text-decoration: underline;
 }
 

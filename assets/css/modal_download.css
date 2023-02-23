@@ -1,0 +1,211 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+  z-index: 9999;
+}
+
+.click {
+  background: #000000;
+  color: white;
+  font-size: 22px;
+  font-family: arial;
+  font-weight: bold;
+  padding: 10px 15px;
+  text-align: center;
+  border: 1px solid #0059b3;
+}
+
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+#popup1 {
+  font-family: poppins;
+}
+
+#popup1 .popup {
+  width: 1000px;
+  height: 650px;
+  margin: auto;
+  padding: 30px;
+  background: no-repeat url("../img/modal/modal2.png");
+  border-radius: 5px;
+  position: relative;
+  text-align: left;
+  top: 50% !important;
+  position: fixed !important;
+  -moz-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  right: 0px;
+  left: 0px;
+  border: 5px solid #ffffff;
+}
+
+#popup1 .popup h2 {
+  margin-top: 0;
+  color: #333;
+}
+
+#popup1 .popup .close {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  font-size: 40px;
+  font-weight: normal;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 0;
+  cursor: pointer;
+  float: right;
+  padding: 0;
+  color: rgb(0, 0, 0);
+  margin-top: 0;
+  margin-right: 0;
+  height: 30px;
+  width: 30px;
+  line-height: 30px;
+  background: #ffffff;
+}
+
+#popup1 .popup .close:hover {
+  color: #ff2143;
+}
+
+#popup1 .popup .content {
+  max-height: 30%;
+  overflow: auto;
+}
+
+/* meu modal */
+.container_modal {
+  width: 1000px;
+  height: 650px;
+  margin: 0;
+  padding-left: 4%; /* posição dos cards dentro do modal */
+}
+
+#title_modal {
+  font-family: "Roboto", sans-serif;
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: 500;
+}
+
+#title_modal2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  color: #888888;
+  white-space: pre;
+}
+
+#text_updater {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 17px;
+  color: #555555;
+}
+
+div.blackbird {
+  width: auto;
+  margin-right: 15px;
+  display: inline-block;
+}
+
+#adena {
+  width: 202px;
+  height: 385px;
+  background-image: url("../img/modal/items/adena_off.png");
+  background-repeat: no-repeat;
+}
+
+#armor {
+  width: 202px;
+  height: 385px;
+  background-image: url("../img/modal/items/armor_off.png");
+  background-repeat: no-repeat;
+}
+
+#joias {
+  width: 202px;
+  height: 385px;
+  background-image: url("../img/modal/items/joias_off.png");
+  background-repeat: no-repeat;
+}
+
+#account {
+  width: 202px;
+  height: 385px;
+  background-image: url("../img/modal/items/account_off.png");
+  background-repeat: no-repeat;
+}
+
+#adena:hover {
+  background-image: url("../img/modal/items/adena_on.png");
+  background-repeat: no-repeat;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+#armor:hover {
+  background-image: url("../img/modal/items/armor_on.png");
+  background-repeat: no-repeat;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+#joias:hover {
+  background-image: url("../img/modal/items/joias_on.png");
+  background-repeat: no-repeat;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+#account:hover {
+  background-image: url("../img/modal/items/account_on.png");
+  background-repeat: no-repeat;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+.botao_updater_modal a {
+  font-family: "Roboto Condensed", sans-serif;
+  color: #202020;
+}
+
+.botao_updater_modal {
+  font-family: "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 17px;
+  display: inline-block;
+  padding: 10px 25px 10px 25px;
+  border-radius: 4px;
+  transition: 0.5s;
+  color: #aaaaaa;
+  background: none;
+  border: 1px solid #aaaaaa;
+}
+
+.botao_updater_modal:hover {
+  border-color: rgb(255, 255, 255);
+  background: #004daa;
+  color: #ffffff;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}

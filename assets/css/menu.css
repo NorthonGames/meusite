@@ -1691,6 +1691,7 @@ h3.ruby-list-heading {
   font-size: 14px;
   line-height: 24px;
   font-weight: 700;
+  padding-left: 25px; /* posição dos titulos dos sub-menu */
   margin: 0;
 }
 

@@ -25,10 +25,11 @@
 
 .overlay:target {
   visibility: visible;
-  opacity: 1;
+  opacity: 3;
 }
 
-#popup1 {
+#popup1,
+#popup2 {
   font-family: poppins;
 }
 
@@ -36,11 +37,11 @@
   width: 1000px;
   height: 650px;
   margin: auto;
-  padding: 30px;
-  background: no-repeat url("../img/modal/modal2.png");
+  padding-top: 35px;
+  background: no-repeat url("../img/modal/banner_essence.png");
   border-radius: 5px;
   position: relative;
-  text-align: left;
+  text-align: center;
   top: 50% !important;
   position: fixed !important;
   -moz-transform: translateY(-50%);
@@ -53,12 +54,49 @@
   border: 5px solid #ffffff;
 }
 
-#popup1 .popup h2 {
-  margin-top: 0;
-  color: #333;
+#popup2 .popup {
+  width: 1000px;
+  height: 650px;
+  margin: auto;
+  padding-top: 35px;
+  background: no-repeat url("../img/modal/banner_aden.png");
+  border-radius: 5px;
+  position: relative;
+  text-align: center;
+  top: 50% !important;
+  position: fixed !important;
+  -moz-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  right: 0px;
+  left: 0px;
+  border: 5px solid #ffffff;
 }
 
 #popup1 .popup .close {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  font-size: 40px;
+  font-weight: normal;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 0;
+  cursor: pointer;
+  float: right;
+  padding: 0;
+  color: rgb(0, 0, 0);
+  margin-top: 0;
+  margin-right: 0;
+  height: 30px;
+  width: 30px;
+  line-height: 30px;
+  background: #ffffff;
+}
+
+#popup2 .popup .close {
   position: absolute;
   top: 0px;
   right: 0px;
@@ -83,9 +121,24 @@
   color: #ff2143;
 }
 
+#popup2 .popup .close:hover {
+  color: #ff2143;
+}
+
 #popup1 .popup .content {
   max-height: 30%;
   overflow: auto;
+}
+
+#popup2 .popup .content {
+  max-height: 30%;
+  overflow: auto;
+}
+
+.banner_items {
+  padding-top: 20px;
+  margin-bottom: 10px;
+  text-align: center;
 }
 
 /* meu modal */
@@ -93,7 +146,8 @@
   width: 1000px;
   height: 650px;
   margin: 0;
-  padding-left: 4%; /* posição dos cards dentro do modal */
+  text-align: center;
+  padding-left: 0px; /* posição dos cards dentro do modal */
 }
 
 #title_modal {
@@ -106,7 +160,14 @@
 #title_modal2 {
   font-family: "Roboto", sans-serif;
   font-size: 20px;
-  color: #888888;
+  color: #999999;
+  white-space: pre;
+}
+
+#title_modal3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  color: #746959;
   white-space: pre;
 }
 
@@ -116,7 +177,13 @@
   color: #555555;
 }
 
-div.blackbird {
+div.essence_eu {
+  width: auto;
+  margin-right: 15px;
+  display: inline-block;
+}
+
+div.aden_na {
   width: auto;
   margin-right: 15px;
   display: inline-block;

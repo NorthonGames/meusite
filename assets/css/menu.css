@@ -299,8 +299,8 @@ div.ruby-menu-demo-download > span > span {
 }
 
 button.ruby-btn {
-  background: #19ad86;
-  border: 2px solid #19ad86;
+  background: #ef2b25;
+  border: 2px solid #ef2b25;
   color: #fff;
   border-radius: 0;
   padding: 10px 25px;
@@ -311,7 +311,7 @@ button.ruby-btn {
 
 button.ruby-btn:hover {
   background: #fff;
-  color: #19ad86;
+  color: #ef2b25;
 }
 
 .switch {
@@ -393,7 +393,7 @@ input.cmn-toggle-round + label:after {
 
 input.cmn-toggle-round:checked + label:before,
 input.cmn-toggle-on + label:before {
-  background-color: #8ce196;
+  background-color: #ef2b25;
 }
 
 input.cmn-toggle-round:checked + label:after,
@@ -1318,20 +1318,20 @@ ul.ruby-menu.ruby-vertical.ruby-menu-dividers > li:first-child > a {
 
 ul.ruby-menu.ruby-menu-dividers > li > a:hover,
 ul.ruby-menu.ruby-menu-dividers > li:hover > a {
-  border-right: 1px solid #19ad86;
+  border-right: 1px solid #ef2b25;
 }
 
 ul.ruby-menu.ruby-vertical.ruby-menu-dividers > li > a:hover,
 ul.ruby-menu.ruby-vertical.ruby-menu-dividers > li:hover > a {
-  border-bottom: 1px solid #19ad86;
+  border-bottom: 1px solid #ef2b25;
 }
 
 ul.ruby-menu.ruby-menu-dividers > li.ruby-active-menu-item > a {
-  border-right: 1px solid #17a47d;
+  border-right: 1px solid #ef2b25;
 }
 
 ul.ruby-menu.ruby-vertical.ruby-menu-dividers > li.ruby-active-menu-item > a {
-  border-bottom: 1px solid #17a47d;
+  border-bottom: 1px solid #ef2b25;
 }
 
 ul.ruby-menu > li > ul,
@@ -1341,7 +1341,7 @@ ul.ruby-menu > li > ul > li > ul > li > ul {
   -webkit-box-shadow: 0 8px 24px -5px #ccc;
   -moz-box-shadow: 0 8px 24px -5px #ccc;
   box-shadow: 0 8px 24px -5px #ccc;
-  border-top: 4px solid #19ad86;
+  border-top: 4px solid #ef2b25;
 }
 
 ul.ruby-menu > li > ul > li,
@@ -1797,7 +1797,7 @@ span.ruby-c-date a {
 
 span.ruby-c-category a:hover,
 span.ruby-c-date a:hover {
-  color: #19ad86;
+  color: #ef2b25;
 }
 
 div.ruby-c-inline {
@@ -1977,7 +1977,7 @@ span.ruby-c-content {
     height: 1px;
     position: absolute;
     content: "";
-    background-color: #19ad86;
+    background-color: #ef2b25; /* COR DAS LINHAS DO SUBMENU COMERCIO RMT */
     width: 0;
   }
 
@@ -2138,7 +2138,7 @@ span.ruby-c-content {
 
   ul.ruby-menu > li > a {
     padding: 0 65px;
-    background: #19ad86;
+    background: #ef2b25;
   }
 
   ul.ruby-menu > li > a:only-child {
@@ -2148,11 +2148,11 @@ span.ruby-c-content {
   ul.ruby-menu > li > a:hover,
   ul.ruby-menu > li:hover > a,
   ul.ruby-menu > li.ruby-active-menu-item > a:hover {
-    background: #127e61;
+    background: #ef2b25;
   }
 
   ul.ruby-menu > li.ruby-active-menu-item > a {
-    background: #159572;
+    background: #ef2b25;
   }
 
   ul.ruby-menu > li.ruby-menu-social > a > span {
@@ -2616,7 +2616,7 @@ span.ruby-c-content {
   }
 
   .c-hamburger--htx {
-    background-color: #19ad86;
+    background-color: #ef2b25;
   }
 
   .c-hamburger--htx span {

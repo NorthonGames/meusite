@@ -2316,7 +2316,8 @@ hr {
   margin-right: 8px;
 }
 .header-area .header-mid {
-  padding: 9px 0px;
+  padding: 20px 0px; /* ESPAÇAMENTO DA LOGO NA DIV */
+
   position: relative;
 }
 .header-area .header-mid .header-banner img {

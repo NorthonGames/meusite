@@ -2707,11 +2707,15 @@ hr {
 }
 /* COR DO TEXTO AO PASSAR O MOUSE NO BANNER DE EVENTOS */
 #parceiros a:hover {
-  color: #33cff0;
+  color: #ef2b25;
 }
 .saibamais {
-  color: #051441;
-  font-weight: 500;
+  color: #000000;
+  font-weight: 400;
+}
+
+.saibamais a:hover {
+  color: #ef2b25;
 }
 
 .trending-area
@@ -2721,7 +2725,7 @@ hr {
   .trend-top-cap
   h2
   a:hover {
-  color: #33cff0;
+  color: #ef2b25;
 }
 .trending-area .trending-main .trending-top .trend-top-img .trend-top-cap p {
   color: #c2c2c2;
@@ -5576,22 +5580,22 @@ del {
 }
 .genric-btn.info {
   color: #fff;
-  background: #38a4ff;
+  background: #ef2b25;
   border: 1px solid transparent;
 }
 .genric-btn.info:hover {
-  color: #38a4ff;
-  border: 1px solid #38a4ff;
+  color: #ef2b25;
+  border: 1px solid #ef2b25;
   background: #fff;
 }
 .genric-btn.info-border {
-  color: #38a4ff;
-  border: 1px solid #38a4ff;
+  color: #ef2b25;
+  border: 1px solid #ef2b25;
   background: #fff;
 }
 .genric-btn.info-border:hover {
   color: #fff;
-  background: #38a4ff;
+  background: #ef2b25;
   border: 1px solid transparent;
 }
 .genric-btn.warning {
